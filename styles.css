@@ -1,0 +1,6 @@
+:root{--bg:#f7f7f7;--card:#fff;--accent:#2b6cb0}
+body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:#222;margin:0}
+header{background:var(--card);padding:16px;border-bottom:1px solid #eee}
+main{max-width:900px;margin:24px auto;padding:16px;background:var(--card);border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,.04)}
+footer{text-align:center;padding:12px;margin-top:12px;color:#666}
+a{color:var(--accent);text-decoration:none}

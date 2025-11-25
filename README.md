@@ -1,5 +1,17 @@
 # portfolio
 
+git clone repository name
+
+git status
+
+git add index.html
+git add about.html
+git add README.md
+
+git commit -m "intially add 2 page website & README.md file"
+
+
+
 Jenkins Pipeline (Example Jenkinsfile):
 pipeline {
  agent any

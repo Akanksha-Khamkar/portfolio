@@ -1,5 +1,15 @@
 # portfolio
 
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/USERNAME/REPOSITORY.git
+git push -u origin main
+
+
+
+
 git clone repository name
 
 git status
@@ -13,6 +23,7 @@ git commit -m "intially add 2 page website & README.md file"
 
 
 Jenkins Pipeline (Example Jenkinsfile):
+
 pipeline {
  agent any
  environment {

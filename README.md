@@ -10,7 +10,7 @@ pipeline {
  stage('Checkout') {
  steps {
  echo 'Cloning project from GitHub...'
- git branch: 'main', url: 'https://github.com/repo/Jenkin_with_HTML.git'
+ git branch: 'main', url: 'https://github.com/Akanksha-Khamkar/portfolio.git'
  }
  }
  stage('Build') {
@@ -23,7 +23,7 @@ pipeline {
  steps {
  echo "Deploying Home.html to IIS folder"
  // Directly copy Home.html to webserver root
- bat "xcopy /Y Home.html ${DEPLOY_DIR}\\"
+ bat "xcopy /Y home.html ${DEPLOY_DIR}\\"
  }
  }
  stage('Run HTTP Server (Optional Test)') {
